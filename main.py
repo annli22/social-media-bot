@@ -29,7 +29,7 @@ def generate_text():
         #choose your chatbot
         "providers": "openai, cohere",
         #request for chatabot
-        "text": "generate short short for 200 char max,funny story for my twitter post",
+        "text": "generate short,funny story for my twitter post ",
         "temperature": 0.2,
         "max_tokens": 250,
 
