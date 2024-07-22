@@ -1,1 +1,94 @@
-# social-media-bot
+# Social Media Bot
+
+This project is a Python script that generates and posts content to Twitter and Instagram automatically. The bot uses the Eden AI API to generate text and images, and Tweepy for Twitter interactions.
+
+## Features
+
+- **Text Generation**: Generates short, funny stories for Twitter and Instagram posts.
+- **Image Generation**: Creates images for Instagram posts.
+- **Posting to Instagram**: Automatically posts generated content to Instagram.
+- **Posting to Twitter**: Automatically posts generated content to Twitter.
+
+## Prerequisites
+
+- Python 3.x
+- Pip (Python package installer)
+- Twitter Developer Account
+- Facebook Developer Account (for Instagram API)
+
+## Installation
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/social-media-bot.git
+    cd social-media-bot
+    ```
+
+2. **Install the required packages**:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. **Set up your API keys and tokens**:
+   Replace the placeholder values in the script with your actual API keys and tokens:
+    - `BEARER_TOKEN`
+    - `CONSUMER_KEY`
+    - `CONSUMER_SECRET`
+    - `ACCESS_TOKEN`
+    - `ACCESS_TOKEN_SECRET`
+    - `INSTAGRAM_TOKEN`
+    - `INSTAGRAM_ID`
+
+## Usage
+
+1. **Run the script**:
+    ```sh
+    python main.py
+    ```
+
+2. **Follow the on-screen menu**:
+    - Choose `Instagram` or `Twitter`.
+    - Post content directly from the script.
+
+## File Structure
+Pythonproject/
+
+
+├── main.py                # Main script for running the bot
+├── requirements.txt       # List of required Python packages
+├── README.md              # Project documentation
+└── generated_image.png    # Generated image (will be created by the script)
+
+
+
+## Main Components
+
+### Text Generation
+
+The text generation functionality uses the Eden AI API to generate short, funny stories for social media posts. It sends a request to the API and processes the response to extract the generated text.
+
+### Image Generation
+
+The image generation functionality uses the Eden AI API to create images suitable for Instagram posts. It downloads the generated image and saves it locally.
+
+### Posting to Instagram
+
+The script includes a function to post the generated content (text and image) to Instagram using the Facebook Graph API.
+
+### Posting to Twitter
+
+The script uses Tweepy to post the generated text to Twitter. It includes authentication handling and tweet creation.
+
+## Contributing
+
+1. **Fork the repository**
+2. **Create a new branch** (`git checkout -b feature/your-feature`)
+3. **Commit your changes** (`git commit -m 'Add some feature'`)
+4. **Push to the branch** (`git push origin feature/your-feature`)
+5. **Create a Pull Request**
+
+## Acknowledgements
+
+- [Eden AI](https://edenai.co) for their API services.
+- [Tweepy](https://www.tweepy.org/) for the Twitter API wrapper.
+
