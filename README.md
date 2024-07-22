@@ -53,11 +53,12 @@ This project is a Python script that generates and posts content to Twitter and 
 ## File Structure
 Pythonproject/
 
-
+│
 ├── main.py                # Main script for running the bot
 ├── requirements.txt       # List of required Python packages
 ├── README.md              # Project documentation
-└── generated_image.png    # Generated image (will be created by the script)
+└── LICENSE                # License file (optional, if you add one)
+
 
 
 
