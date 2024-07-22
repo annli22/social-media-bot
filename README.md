@@ -18,18 +18,15 @@ This project is a Python script that generates and posts content to Twitter and 
 
 ## Installation
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/yourusername/social-media-bot.git
-    cd social-media-bot
-    ```
 
-2. **Install the required packages**:
-    ```sh
-    pip install -r requirements.txt
-    ```
 
-3. **Set up your API keys and tokens**:
+1. **Install the required packages**:
+    ```sh
+    pip install tweepy
+    ```
+ 
+
+2. **Set up your API keys and tokens**:
    Replace the placeholder values in the script with your actual API keys and tokens:
     - `BEARER_TOKEN`
     - `CONSUMER_KEY`
@@ -54,8 +51,7 @@ This project is a Python script that generates and posts content to Twitter and 
 Pythonproject/
 
 │
-├── main.py                # Main script for running the bot
-├── requirements.txt       # List of required Python packages
+├── main.py                # Main script for running the bot       
 ├── README.md              # Project documentation
 └── LICENSE                # License file (optional, if you add one)
 
@@ -80,13 +76,7 @@ The script includes a function to post the generated content (text and image) to
 
 The script uses Tweepy to post the generated text to Twitter. It includes authentication handling and tweet creation.
 
-## Contributing
 
-1. **Fork the repository**
-2. **Create a new branch** (`git checkout -b feature/your-feature`)
-3. **Commit your changes** (`git commit -m 'Add some feature'`)
-4. **Push to the branch** (`git push origin feature/your-feature`)
-5. **Create a Pull Request**
 
 ## Acknowledgements
 
